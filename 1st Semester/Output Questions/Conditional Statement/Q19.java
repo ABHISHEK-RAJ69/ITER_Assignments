@@ -9,3 +9,5 @@ public class Q19 {
         System.out.println(" y is "+ s);
     }
 }
+// OUTPUT :- 
+// y is 2 
