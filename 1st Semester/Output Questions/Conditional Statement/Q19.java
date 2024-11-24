@@ -1,13 +1,10 @@
 public class Q19 {
     public static void main(String[] args) {
-        int f = 10 , s =  0 ; 
-        if ( f< 10 ){
-            s=1;
-        }if (f>=10) {
-            s =2;
+        float fl = 5.3f;
+        if (fl ==5.3){
+            System.out.println("Both are equal");
+        }else{
+            System.out.println(" Both are not equal");
         }
-        System.out.println(" y is "+ s);
     }
 }
-// OUTPUT :- 
-// y is 2 
