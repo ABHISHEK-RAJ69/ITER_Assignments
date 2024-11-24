@@ -9,3 +9,6 @@ public class Q5 {
         }
     }
 }
+
+// Output
+//  bye
