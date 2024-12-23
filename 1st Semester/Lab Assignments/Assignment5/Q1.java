@@ -26,12 +26,21 @@ public class Q1 {
 			}
 			System.out.println(sum);
 			if(sum==a) {
-				System.out.print(a+" and"+b+" are Amicable numbers.");
+				System.out.print(a+" and "+b+" are Amicable numbers.");
 			}	
 		}else {
-			System.out.print(a+" and"+b+" are not Amicable numbers.");
+			System.out.print(a+" and "+b+" are not Amicable numbers.");
 			
 		}
 		sc.close();
     }
 }
+
+// Output:-
+
+// Enter a number 
+// 220
+// Enter another number
+// 284
+// 220
+// 220 and 284 are Amicable numbers.
