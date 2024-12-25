@@ -18,7 +18,6 @@ public class Q2 {
 			if(a % i == 0 || rev % i == 0 ) {
 				System.out.println(a+" is not a twisted number.");
 				System.exit(0);
-				System.out.println("test");
 			}
 		}
 		System.out.println(a+" is  a twisted number");
