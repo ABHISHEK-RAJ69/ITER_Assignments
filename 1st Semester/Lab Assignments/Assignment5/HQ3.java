@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class HQ3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter value of x in radians");
+        System.out.println("Enter angle in Degree");
         double  x = Math.toRadians(sc.nextDouble());
         double term = x ;//first term 
         double sinX = x;
