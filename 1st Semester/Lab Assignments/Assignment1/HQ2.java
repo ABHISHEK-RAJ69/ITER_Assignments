@@ -1,4 +1,4 @@
-package assignment1;
+package Assignment1;
 
 public class HQ2 {
 

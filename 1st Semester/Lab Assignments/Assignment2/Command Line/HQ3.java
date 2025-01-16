@@ -1,5 +1,3 @@
-package assignement2_cmd_line_args;
-
 public class HQ3 {
 
 	public static void main(String[] args) {

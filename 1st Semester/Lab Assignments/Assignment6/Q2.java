@@ -1,10 +1,9 @@
+package Assignment6;
 
 public class Q2 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-//		System.out.println(getPentagonalNumber(3));
-		for(int i = 1 ; i<=100;i++) {
+    public static void main(String[] args) {
+        
+        for(int i = 1 ; i<=100;i++) {
 			System.out.print(getPentagonalNumber(i)+ " ");
 			if(i%10 == 0) {
 				System.out.println();
@@ -14,8 +13,6 @@ public class Q2 {
 	public static int getPentagonalNumber(int n) {
 		return  n*(3*n -1 )/2 ;
 	}
-
-
 }
 
 /* 
