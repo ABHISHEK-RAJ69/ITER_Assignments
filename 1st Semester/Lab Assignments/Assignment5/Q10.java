@@ -12,7 +12,7 @@ public class Q10 {
 		int sum=a+b+c,temp,temp2;
 		System.out.print(a+" "+b+" "+c+" ");
 		int count =3;
-		while(count<n) {
+		while(count<n-1) {
 			System.out.print(sum+" ");
 			temp = c;
 			c=sum;
