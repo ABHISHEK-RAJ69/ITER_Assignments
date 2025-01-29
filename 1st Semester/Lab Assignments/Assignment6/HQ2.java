@@ -46,3 +46,16 @@ public class HQ2 {
 	}
 
 }
+
+/*
+Output:-
+Enter your choice
+1 for Cube 
+2 for Sphere
+3 for Cuboide
+2
+Enter radius of the Sphere 
+5
+volume of the cube is 392.69908169872417
+392.69908169872417
+ */
