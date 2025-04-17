@@ -23,4 +23,16 @@ public class Q05 {
 
 class CC{
 	int a = 8;
+
+	@Override
+	public String toString() {
+		return "CC [a=" + a + "]";
+	}
+	
 }
+
+/*
+Output:-
+5
+CC [a=12]
+ */
