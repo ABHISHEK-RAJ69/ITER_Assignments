@@ -11,7 +11,7 @@ public class Q09 {
 		if(n < 10 ) {
 			return n ;
 		}
-		return  (int) ((n%10) *Math.pow(10, (int)(Math.log10(n/10))+1)) + rev(n/10);
+		return  (int) ((n%10) *Math.pow(10, (int)(Math.log10(n)))) + rev(n/10);
 	}
 
 }
