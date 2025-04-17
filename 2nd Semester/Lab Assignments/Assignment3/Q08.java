@@ -13,7 +13,7 @@ public class Q08 {
 		if(p ==0 ) {
 			return 1 ;
 		}
-		return power(b , p-1);
+		return b*power(b , p-1);
 	}
 
 }
