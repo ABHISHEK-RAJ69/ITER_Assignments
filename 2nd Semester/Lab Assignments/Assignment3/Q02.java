@@ -7,9 +7,11 @@ public class Q02 {
 		String[] colors = new String[3];
 		colors[0] = "Purple";
 		colors[1] = "Neon";
+		// colors[2] = null;
 		for(int i = 0 ; i < colors.length+1 ; i++) {
 			try {
 				System.out.println(colors[i]);
+				System.out.println(colors[i].length());
 				
 			}catch(ArrayIndexOutOfBoundsException e)  {
 				System.out.println("u dont have enough color");
@@ -22,3 +24,14 @@ public class Q02 {
 	}
 
 }
+
+/*
+Output:-
+Purple
+6
+Neon
+4
+null
+Pointer is pointing toward nothing
+u dont have enough color
+ */
