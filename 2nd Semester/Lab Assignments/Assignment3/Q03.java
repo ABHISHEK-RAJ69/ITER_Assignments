@@ -4,15 +4,16 @@ public class Q03 {
 
 	public static void main(String[] args) {
 		Student a = new Student();
-		if(a.marks >100) {
-			
-			try {
+		
+		try {
+			if(a.marks >100){
+
 				throw new MarksOutOfBoundException("Marks is invalid");
-			}catch (MarksOutOfBoundException e) {
-				System.out.println(e.getMessage());
 			}
+			System.out.println("Congrats");
+		}catch (MarksOutOfBoundException e) {
+				System.out.println(e.getMessage());
 		}
-		System.out.println("Congrats");
 		
 	}
 
@@ -28,3 +29,5 @@ class MarksOutOfBoundException extends Exception{
 	}
 	
 }
+// Output:-
+// Marks is invalid
